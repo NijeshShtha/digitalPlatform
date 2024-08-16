@@ -1,0 +1,26 @@
+:root{
+    --primary-color: #F0F5F9;
+    --secondary-color: #C9D6DF;
+    --remain-color: #52616B;
+    --button: #1E2022;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.navbar{
+    background-color: var(--primary-color);
+}
+.navbar .form-control{
+    width: 500px;
+}
+.navbar .navbar-navi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .navbar-navi .navigation-sub{
+    margin-right: 200px;
+}
